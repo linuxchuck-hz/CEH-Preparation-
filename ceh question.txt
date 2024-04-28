@@ -1,0 +1,3185 @@
+1. Which security control role does encryption meet?
+Preventative
+
+
+2. When does the Payment Card Industry Data Security Standard (PCI-DSS) require organizations to perform external and internal penetration testing?
+At least once a year and after any significant upgrade or modification
+
+
+3. Which statement is TRUE regarding network firewalls preventing Web Application attacks?
+Network firewalls cannot prevent attacks because ports 80 and 443 must be opened.
+
+
+4. A circuit level gateway works at which of the following layers of the OSI Model?
+Layer 4 - TCP
+
+
+5. Which of the following describes the characteristics of a Boot Sector Virus?
+Moves the MBR to another location on the hard disk and copies itself to the original location of the MBR
+
+
+6. The intrusion detection system at a software development company suddenly generates multiple alerts regarding attacks against the company's external webserver, VPN concentrator, and DNS servers. What should the security team do to determine which alerts to check first?
+Investigate based on the potential effect of the incident.
+
+
+7. While performing data validation of web content, a security technician is required to restrict malicious input. Which of the following processes is an efficient way of restricting malicious input?
+Validate web content input for type, length, and range.
+
+
+8. Which tool can be used to silently copy files from USB devices?
+USB Dumper
+
+
+9. Which of the following problems can be solved by using Wireshark?
+Troubleshooting communication resets between two systems
+
+
+10. The precaution of prohibiting employees from bringing personal computing devices into a facility is what type of security control?
+Procedural
+
+
+11. Which of the following items of a computer system will an anti-virus program scan for viruses?
+Boot Sector
+
+
+Which of the following items of a computer system will an anti-virus program scan for viruses?
+Windows Process List
+
+
+12. How can a policy help improve an employee's security awareness?
+By implementing written security procedures, enabling employee security training, and promoting the benefits of security
+
+
+13. A bank stores and processes sensitive privacy information related to home loans. However, auditing has never been enabled on the system. What is the first step that the bank should take before enabling the audit feature?
+Determine the impact of enabling the audit feature.
+
+
+14. Which of the following scanning tools is specifically designed to find potential exploits in Microsoft Windows products?
+Microsoft Security Baseline Analyzer
+
+
+15. Which of the following is an example of an asymmetric encryption implementation?
+PGP
+
+
+16. Which of the following is a symmetric cryptographic standard?
+3DES
+
+
+17. After gaining access to the password hashes used to protect access to a web based application, knowledge of which cryptographic algorithms would be useful to gain access to the application?
+SHA1
+
+
+18. Which of the following is a hashing algorithm?
+MD5
+
+
+19. Which of the following is an application that requires a host application for replication?
+Virus
+
+
+20. Which of the following can the administrator do to verify that a tape backup can be recovered in its entirety?
+Perform a full restore.
+
+
+21. International Organization for Standardization (ISO) standard 27002 provides guidance for compliance by outlining
+guidelines and practices for security controls.
+
+
+22. John the Ripper is a technical assessment tool used to test the weakness of which of the following?
+Passwords
+
+
+23. Which of the following is considered an acceptable option when managing a risk?
+Mitigate the risk.
+
+
+24. To send a PGP encrypted message, which piece of information from the recipient must the sender have before encrypting the message?
+Recipient's public key
+
+
+25. What are the three types of compliance that the Open Source Security Testing Methodology Manual (OSSTMM) recognizes?
+Legislative, contractual, standards based
+
+
+26. How can rainbow tables be defeated?
+Password salting
+
+
+27. A security analyst is performing an audit on the network to determine if there are any deviations from the security policies in place. The analyst discovers that a user from the IT department had a dial-out modem installed. Which security policy must the security analyst check to see if dial-out modems are allowed?
+Remote-access policy
+
+
+28. Which of the following lists are valid data-gathering activities associated with a risk assessment?
+Threat identification, vulnerability identification, control analysis
+
+
+29. Which of the following is a hardware requirement that either an IDS/IPS system or a proxy server must have in order to properly function?
+They must be dual-homed
+
+
+30. What statement is true regarding LM hashes?
+LM hashes are not generated when the password length exceeds 15 characters
+
+
+31. Smart cards use which protocol to transfer the certificate in a secure manner?
+Extensible Authentication Protocol (EAP)
+
+
+32. Which of the following does proper basic configuration of snort as a network intrusion detection system require?
+Limit the packets captured to the snort configuration file.
+
+
+33. A computer science student needs to fill some information into a secured Adobe PDF job application that was received from a prospective employer. Instead of requesting a new document that allowed the forms to be completed, the student decides to write a script that pulls passwords from a list of commonly used passwords to try against the secured PDF until the correct password is found or the list is exhausted.
+Dictionary attack
+
+
+34. What is the best defense against privilege escalation vulnerability?
+Run services with least privileged accounts and implement multi-factor authentication and authorization.
+
+
+35. Which of the following identifies the three modes in which Snort can be configured to run?
+Sniffer, Packet Logger, and Network Intrusion Detection System
+
+
+36. Which type of access control is used on a router or firewall to limit network activity?
+Rule-based
+
+
+37. When setting up a wireless network, an administrator enters a pre-shared key for security. Which of the following is true?
+The key entered is a symmetric key used to encrypt the wireless data.
+
+
+38. When setting up a wireless network, an administrator enters a pre-shared key for security. Which of the following is true?
+The key entered is a symmetric key used to encrypt the wireless data.
+
+
+39. Which of the following guidelines or standards is associated with the credit card industry?
+Payment Card Industry Data Security Standards (PCI DSS)
+
+
+40. When creating a security program, which approach would be used if senior management is supporting and enforcing the security policy?
+A top-down approach
+
+
+41. Which of the following ensures that updates to policies, procedures, and configurations are made in a controlled and documented fashion?
+Change management
+
+
+42. Which of the following techniques will identify if computer files have been changed?
+Integrity checking hashes
+
+
+43. What is one thing a tester can do to ensure that the software is trusted and is not changing or tampering with critical data on the back end of a system it is loaded on?
+Analysis of interrupts within the software
+
+
+44. An NMAP scan of a server shows port 69 is open. What risk could this pose?
+Unauthenticated access
+
+
+45. Which of the following is a primary service of the U.S. Computer Security Incident Response Team (CSIRT)?
+CSIRT provides an incident response service to enable a reliable and trusted single point of contact for reporting computer security incidents worldwide.
+
+
+46. A company is using Windows Server 2003 for its Active Directory (AD). What is the most efficient way to crack the passwords for the AD users?
+Perform an attack with a rainbow table.
+
+
+47. Which of the following algorithms provides better protection against brute force attacks by using a 160-bit message digest?
+SHA-1
+
+
+48. Which cipher encrypts the plain text digit (bit or byte) one by one?
+Stream cipher
+
+
+49. For messages sent through an insecure channel, a properly implemented digital signature gives the receiver reason to believe the message was sent by the claimed sender. While using a digital signature, the message digest is encrypted with which key?
+Sender's private key
+
+
+50. Which solution can be used to emulate computer services, such as mail and ftp, and to capture information related to logins or actions?
+Honeypot
+
+
+51. What information should an IT system analysis provide to the risk assessor?
+Security architecture
+
+
+52. When utilizing technical assessment methods to assess the security posture of a network, which of the following techniques would be most effective in determining whether end-user security training would be beneficial?
+Social engineering
+
+
+53. An IT security engineer notices that the company's web server is currently being hacked. What should the engineer do next?
+Unplug the network connection on the company's web server.
+
+
+54. Firewalk has just completed the second phase (the scanning phase) and a technician receives the output shown below. What conclusions can be drawn based on these scan results?
+The scan on port 23 passed through the filtering device. This indicates that port 23 was not blocked at the firewall.
+
+
+55. Which vital role does the U.S. Computer Security Incident Response Team (CSIRT) provide?
+Incident response services to any user, company, government agency, or organization in partnership with the Department of Homeland Security
+
+
+56. A Certificate Authority (CA) generates a key pair that will be used for encryption and decryption of email. The integrity of the encrypted email is dependent on the security of which of the following?
+Private key
+
+
+57. Diffie-Hellman (DH) groups determine the strength of the key used in the key exchange process. Which of the following is the correct bit size of the Diffie-Hellman (DH) group 5?
+1536 bit key
+
+
+58. To reduce the attack surface of a system, administrators should perform which of the following processes to remove unnecessary software, services, and insecure configuration settings?
+Hardening
+
+
+59. Windows file servers commonly hold sensitive files, databases, passwords and more. Which of the following choices would be a common vulnerability that usually exposes them?
+Missing patches
+
+
+60. Which of the following processes evaluates the adherence of an organization to its stated security policy?
+Security auditing
+
+
+61. How is sniffing broadly categorized?
+Active and passive
+
+
+62. What is the primary drawback to using advanced encryption standard (AES) algorithm with a 256 bit key to share sensitive data?
+It is a symmetric key algorithm, meaning each recipient must receive the key through a different channel than the message.
+
+
+63. Which of the following can take an arbitrary length of input and produce a message digest output of 160 bit?
+SHA-1
+
+
+64. Which of the following programs is usually targeted at Microsoft Office products?
+Macro virus
+
+
+65. If a tester is attempting to ping a target that exists but receives no response or a response that states the destination is unreachable, ICMP may be disabled and the network may be using TCP. Which other option could the tester use to get a response from a host using TCP?
+Hping
+
+
+66.______ is a benefit of security awareness, training, and education programs to organizations.
+All of the above
+
+
+67.Security awareness, training, and education programs can serve as a deterrent to fraud and actions by disgruntled employees by increasing employees' knowledge of their ________ and of potential penalties
+Accountability
+
+
+68.The _______ category is a transitional stage between awareness and training
+Security basics and literacy
+
+
+69.________ is explicitly required for all employees
+Security awareness
+
+
+70.The _________ level focuses on developing the ability and vision to perform complex, multidisciplinary activities and the skills needed to further the IT security profession and to keep pace with threat and technology changes
+Education and experience
+
+
+71._______ are ways for an awareness program to promote the security message to employees
+All of the above
+
+
+72.____ need training on the development of risk management goals, means of measurement, and the need to lead by example in the area of security awareness
+Executives
+
+
+73.From a security point of view, which of the following actions should be done upon the termination of an employee?
+All of the above
+
+
+74.________ is the process of receiving, initial sorting, and prioritizing of information to facilitate its appropriate handling
+Triage
+
+
+75.CERT stands for ___________.
+Computer Emergency Response Team
+
+
+76.________ can include computer viruses, Trojan horse programs, worms, exploit scripts, and toolkits
+Artifacts
+
+
+77.A capability set up for the purpose of assisting in responding to computer security-related incidents that involve sites within a defined constituency is called a ______.
+All of the above
+
+
+78.___________ scan critical system files, directories, and services to ensure they have not been changed without proper authorization
+System integrity verification tools
+
+
+79.A _______ policy states that the company may access, monitor, intercept, block access, inspect, copy, disclose, use, destroy, or recover using computer forensics any data covered by this policy
+Company rights
+
+
+80.Security auditing can:
+All of the above
+
+
+81.A _______ is conducted to determine the adequacy of system controls, ensure compliance with established security policy and procedures, detect breaches in security services, and recommend any changes that are indicated for countermeasures
+Security audit
+
+
+82.The _________ is logic embedded into the software of the system that monitors system activity and detects security-related events that it has been configured to detect.
+Event discriminator
+
+
+83.The ________ is a module on a centralized system that collects audit trail records from other systems and creates a combined audit trail
+Audit trail collector
+
+
+84.The ________ is a module that transmits the audit trail records from its local system to the centralized audit trail collector
+Audit dispatcher
+
+
+85._________ identifies the level of auditing, enumerates the types of auditable events, and identifies the minimum set of audit-related information provided
+Data generation
+
+
+86.Data items to capture for a security audit trail include
+All of the above
+
+
+87._________ audit trails are generally used to monitor and optimize system performance
+System-level
+
+
+88._________ audit trails may be used to detect security violations within an application or to detect flaws in the application's interaction with the system
+Application-level
+
+
+89.Windows allows the system user to enable auditing in _______ different categories
+Nine
+
+
+90.Severe messages, such as immediate system shutdown, is a(n) _____ severity
+Emerg
+
+
+91.System conditions requiring immediate attention is a(n) _______ severity
+Alert
+
+
+92.______ is the identification of data that exceed a particular baseline value
+Thresholding
+
+
+93.______ software is a centralized logging software package similar to, but much more complex than, syslog
+SIEM
+
+
+94.With _________ the linking to shared library routines is deferred until load time so that if changes are made any program that references the library is unaffected
+Dynamically linked shared libraries
+
+Router log files provide detailed information about the network traffic on the Internet. It gives information about the attacks to and from the networks. The router stores log files in the ___
+Router cache
+
+
+95.__ is the identification of data that exceed a particular baseline value
+Thresholding
+
+
+96.A flaw or weakness in a system's design, implementation, or operation and management that could be exploited to violate the system's security policy is a(n) __
+Vulnerability
+
+
+Document finding from analysis of suspected malicious software form __
+Malware analysis report
+
+
+Why is host hardening necessary?
+Protects hosts against attacks
+
+
+__ describes the technology that produces a redundant data set within a single server.
+Disk mirroring
+
+
+A loss of __ is the unauthorized disclosure of information.
+Confidentiality
+
+
+Which of the following techniques might used in covert surveillance? (choose 2)
+Data sniffing
+
+
+Which of the following techniques might used in covert surveillance?
+Keylogging
+
+
+In which step of the computer forensics investigation methodology would you run MD5 checksum on the evidence?
+Acquire the data
+
+
+A DNS server that hosts no domains and does not contain any zones is better known as a __ server.
+Caching-only
+
+
+__ is collected in nearly every incident response investigation we perform. The main purpose of the collection is to preserve volatile evidence that will further the investigation
+Live data collection
+
+
+What activity in the IR process to stop finding new events ("steady state")?
+Remediation
+
+
+__ is a network administration command-line tool available for Windows systems for querying the Domain Name System (DNS) to obtain domain name or IP address mapping or for any other specific DNS record.
+Nslookup
+
+
+__ establishes expectations for the protection of sensitive data and resources within the organization. Subsections of this policy may address physical, electronic, and data security matters.
+Security Policy
+
+
+Digital evidence validation involves using a hashing algorithm utility to create a binary hexadecimal number that represents the uniqueness of a data set, such as a disk drive or file. Which of the following hash algorithms produces a message digest that is 128 bits long?
+MD5
+
+
+The first checklist you should complete is used to gather the basic vital of an incident, it is called the __
+Incident Summary Checklist
+
+
+A __ is the process of using automated tool to collect a standard set of data about a running system. The data includes both volatile and nonvolatile information that will rapidly provide answer to investigate questions.
+Live response
+
+
+Replay, masquerade, modification of messages, and denial of service are example of __ attacks.
+Active
+
+
+What is the goal of forensic science?
+To determine the evidential value of the crime scene and related evidence
+
+
+Performing a live data collection and analysis will help you get answers quickly so you can reduce the risk of data loss or other negative consequences of an incident. True or False?
+True
+
+
+The __ log collects events such as failed and successful login attempts to an operating system.
+Security
+
+
+Digital evidence is not fragile in nature.
+False
+
+
+To discover the scope of an incident, you cover three areas (choose 3)
+Determining a course of action
+
+
+To discover the scope of an incident, you cover three areas
+Examining initial data
+
+
+To discover the scope of an incident, you cover three areas
+Gathering and reviewing preliminary evidence
+
+
+Choose the best form of anti-malware protection.
+Anti-malware protection at several locations
+
+
+__ actions are designed to deny the attackers access to specific environments or sensitive data during an investigation
+Containment
+
+
+A(n) __ is a security event that constitutes a security incident in which an intruder gains access to a system without having authorization to do so.
+Security intrusion
+
+
+A bit-by-bit complete, exact copy of all data is referred to as a __
+Forensic duplicate
+
+
+__ is a Linux Live CD that you use to boot a system and then use the tools. It is a free Linux distribution, making it attractive to schools teaching forensics or laboratories on a strict budget.
+Kali Linux
+
+
+What are the goal of INCIDENT RESPONSE (choose 2)
+Remediate
+
+
+What are the goal of INCIDENT RESPONSE (choose 2)
+Investigate
+
+
+Network forensics allow Investigators to inspect network traffic and logs to identify and locate the attack system. Network forensics can reveal (choose 3)
+Intrusion techniques used by attackers
+
+
+Network forensics allow Investigators to inspect network traffic and logs to identify and locate the attack system. Network forensics can reveal
+Source of security incidents and network attacks
+
+
+Network forensics allow Investigators to inspect network traffic and logs to identify and locate the attack system. Network forensics can reveal
+Path of the attack
+
+
+Network and host __ monitor and analyze network and host activity compare this information with a collection of attack signatures to identify potential security incidents
+IDS
+
+
+The IOCs can be found through analysis of the infected computer within an organization's enterprise. Host-based IOCs are revealed through:
+Registry keys
+
+
+__ is UNIX's general-purpose logging mechanism found on all UNIX variants and Linux.
+Syslog
+
+
+A __ consists of making a copy of specific data. The data may consist of a single file, a group of files, a partition on a hard drive, an entire hard drive, or other elements of data storage devices and the information stored on them.
+Simple duplication
+
+
+A(n) __ is an attempt to learn or make use of information from the system that does not affect system resources
+Passive attack
+
+
+MySQL is a very popular open source database that runs on Linux, Unix, and Windows. The MySQL configuration file, typically named my.cnf or my.conf indicate that logging is enabled, where the log files are __.
+/var/log/mysql
+
+
+__ is the process of receiving, initial sorting and prioritizing information to facilitate its appropriate handling
+Triage
+
+
+What does the abbreviation 'PCI DSS' stand for?
+Payment Card Industry Data Security Standards
+
+
+When handling evidence or information that may be part of an investigation, preservation of __ is of paramount importance.
+Volatile data
+
+
+__ actions are designed to deny the attacker access to specific environments or sensitive data during an investigation
+Containment
+
+
+__ is the traditional forensic investigations that are executed on such data which is at rest, for instance, the different contents of a hard drive.
+Static analysis
+
+
+Why is port scanning considered an incident when it does no damage to the system?
+Port scans can precede attacks that cause damage and may lead to a future attack
+
+
+The assets of a computer can be categorized as hardware, software, communication and network, and __
+Data
+
+
+A(n) __ plan is commonly organized into two parts. The first part concentrates on the current incident (posturing, containment, and eradication actions) and the second part concentrates on improving the organization's security posture (strategic actions)
+Remediation
+
+
+Forensic scientist use __ evidence to reconstruct the events of a crime
+Physical evidence
+
+
+A __ is data appended to, or a cryptographic transformation of, a data unit that allows a recipient of the data unit to prove the source and integrity of the data unit and protect against forgery.
+Digital signature
+
+
+Windows is equipped with three types of event logs: system event log, security event log, and __ event log.
+Application
+
+
+Network are vulnerable to an attack which occurs due to overextension of bandwidth, bottlenecks, network data interception, etc. Which of the following network attacks refers to a process in which an attacker changes his or her IP address so that he or she appears to be someone else?
+IP address spoofing
+
+
+What are the two most common phrase of malware analysis?
+Behavioral and code analysis
+
+
+Employees have no expectation of __ in their use of company-provided e-mail or Internet access, even if the communication is personal in nature
+Privacy
+
+
+__ is a DNS record that relates a domain name to an IP address. This is how your website's home server can be found on the internet.
+A record
+
+
+The Hosts file on a Server is located in (pathname) and is used when DNS is not functioning properly.
+C:\Windows\System32\drivers\etc
+
+
+__ is a feature that stores specific data about the applications you run to help them start faster and it is an algorithm that helps anticipate cache misses (times when Windows requests data that isn't stored in the disk cache), and stores data on the hard disk for easy retrieval.
+Windows Prefetch
+
+
+Which port does SMTPs server listen in order to accept incoming messages?
+587
+
+
+What is DHCP snooping?
+Techniques applied to ensure the security of an existing DHCP infrastructure
+
+
+__ is explicitly required for all employees
+Security awareness
+
+
+How do you define forensic computing?
+It is the science of capturing, processing, and investigating data security incidents and making it acceptable to a court of law.
+
+
+The __ portion of remediation addresses these areas, which are commonly long-term improvements that may require significant changes within an organization
+Strategic
+
+
+A computer security incident to be an event that has the following characteristics (choose 3)
+Intent to cause harm
+
+
+A computer security incident to be an event that has the following characteristics
+Was performed by a person
+
+
+A computer security incident to be an event that has the following characteristics
+Involves a computing resource
+
+
+__ provides the ability to automatically execute program at a specific date and time or on a recurring basis. It is functionally similar to the cron utility built in to most Unix-based operating system.
+The Windows Task Scheduler
+
+
+A Trojan program typically opens a back door to allow __ by an unauthorized user.
+Remote access
+
+
+File timestamps are among the important metadata stored in the MFT. You'll often hear forensic analyst refer to a file's "MACE" times-that's short for the four types of NTFS timestamps:
+Modified, Accessed, Created, Entry Modified
+
+
+Which command lists the hotfixes installed to Windows?
+Systeminfo
+
+
+At what stage of an incident response does the team try to prevent additional damage from occurring?
+Containment
+
+
+A __ is defined as the creation of an image of media in a system that is actively running
+Live system duplication
+
+
+__ is a performance optimization mechanism that Microsoft introduced in Windows to reduce boot and application loading times.
+Prefetch
+
+
+Choose the most common method of distributing malware
+Drive-by downloads
+
+
+Security personnel would __ during the remediation stage of an incident response
+Perform a root cause analysis
+
+
+Choose the following is the best response after detecting and verifying an incident?
+Contain it
+
+
+Smallest unit of storage on the Hard Disk is called as __
+Sector
+
+
+The information collected should provide you with a general sense of what has happened, and should help identify areas where your response protocol might need attention
+Date and time the incident was reported
+
+
+A(n) __ is an action, device, procedure, or technique that reduces a threat, a vulnerability, or an attack by eliminating or preventing it, by minimizing the harm it can cause, or by discovering and reporting it so that correct action can be taken.
+Countermeasure
+
+
+As you visit websites, a browser will normally record the Uniform Resource Locator (URL) you accessed, as well as the date and time. This makes it convenient for you to revisit a site you recently browsed to. What is it?
+History
+
+
+___________ scan critical system files, directories, and services to ensure they have not been changed without proper authorization.
+System integrity verification tools
+
+
+Which of the following should you implement to keep a well-maintained computer (choose 2)
+Update the firewall
+
+
+Which of the following should you implement to keep a well-maintained computer
+Update the BIOS
+
+
+A loss of __ is the disruption of access to or use of information or an information system.
+Availability
+
+
+EnCase, FTK, SMART, and ILook treat an image file as though it were the original disk.
+True
+
+
+__ are complete duplication of the hard drives in a system. During an incident response, it is common for us to collect images in a "live" mode, where the system is not taken offline and we create an image on external media.
+Forensic disk images
+
+
+however, slack space typically contains data that was part of the previous file or some random contents of memory, or both
+some random contents of memory, or both
+File stack
+
+
+In forensic hashes, a collision occurs when __
+Two files have the same hash value.
+
+
+A _______ policy states that the company may access, monitor, intercept, block access, inspect, copy, disclose, use, destroy, or recover using computer forensics any data covered by this policy
+Company rights
+
+
+__ clients provide a way for individuals to communicate each other in near real time. The communication can be two way, or can involve multiple parties in a group chat session.
+Instant message (IM)
+
+
+Which of the following file systems does not have a built-in security?
+FAT
+
+
+A __________ is any action that compromises the security of information owned by an organization
+security attack
+
+
+_____ Establishes expectations for the protection of sensitive data
+and resources within the organization. Subsections of this policy may address
+Security policy
+
+
+An assault on system security that derives from an intelligent act that is deliberate attempts to evade security services and violate the security of a system is a(n) __
+Attack
+
+
+__ is a built-in email client that comes with Apple's OS X operating systems.
+Apple mail
+
+
+What File System format is required for an OS X System volume?
+MAC OS Extended - Journaled
+
+
+Where is the Log stored on MAC OSX system?
+/Library/Logs
+
+
+When handling evidence or information that may be apart of an investigation, preservation of __ is of paramount importance.
+Volatile
+
+
+Minimum how many copies we should make of "Single source evidence hard disk" for Forensics analysis purpose
+2
+
+
+What path is DHCP Database stored?
+%Systemroot%\System32\Dhcp
+
+
+___consists of taking the actions deemed appropriate to address the current incident...
+Tactical
+
+
+CERT stands for __________
+Computer Emergency Response Team
+
+
+_______ protocol enables ranges of IP addresses to be defined on a system.
+DHCP
+
+
+__ is the process of taking steps that will help ensure the success of remediation. Activities such as establishing protocol, exchanging contact information, designing responsibilities, increasing visibility scheduling resources, and step
+Posturing
+
+
+__ is most useful in cases when you suspect the attacker is using a mechanism to hide their activities, such as a rootkit, and you cannot obtain a disk images.
+Memory collection
+
+weighs a potential threat against the likelihood or probability of it occurring
+risk calculations
+
+
+deals with the threats, vulnerabilities, and impacts of a loss of information-processing capabilities or a loss of information itself
+risk assessment
+
+
+a weakness that could be exploited by a threat
+vulnerability
+
+
+a monetary measure of how much loss you could expect in a year
+ALE (Annual Loss Expectancy)
+
+
+a monetary value that represents how much you expect to lose at any one time (asset value x exposure factor)
+SLE (Single Loss Expectancy)
+
+
+the likelihood of an event occurring within a year
+ARO (Annualized Rate of Occurrence)
+
+
+formula used to compute risk assessment
+SLE × ARO = ALE
+
+
+opinion-based and subjective
+qualitative risk assessment
+
+
+cost-based and objective
+quantitative risk assessment
+
+
+score representing the possibility of threat initiation
+likelihood
+
+
+the way in which an attacker poses a threat (fake e-mail, rouge access point)
+threat vector
+
+
+the measure of the anticipated incidence of failure for a system or component
+MTBF (mean time between failures)
+
+
+the average time to failure for a nonrepairable system
+MTTF (mean time to failure)
+
+
+The measurement of how long it takes to repair a system or component once a failure occurs
+MTTR (mean time to restore)
+
+
+The maximum amount of time that a process or service is allowed to be down and the consequences still be considered acceptable
+RTO (recovery time objective)
+
+
+Defines the point at which the system needs to be restored. This could be where the system was two days before it crashed or five minutes before it crashed. As a general rule, the closer the RPO matches the time of the crash, the more expensive it is to obtain.
+RPO (Recovery point Objective)
+
+
+Involves identifying a risk and making the decision not to engage any longer in the actions associated with that risk
+Risk avoidance
+
+
+Share some of the burden of the risk with someone else, such as an insurance company
+Risk transference
+
+
+Steps taken to reduce risk
+Risk mitigation
+
+
+Systems that monitor the contents of systems (workstations, servers, and networks) to make sure that key content is not deleted or removed
+DLP (Data Loss Prevention)
+
+
+Involves understanding something about the enemy and letting them know the harm that can come their way if they cause harm to you
+Risk deterrence
+
+
+The choice you must make when the cost of implementing any of the other four choices exceeds the value of the harm that would occur if the risk came to fruition
+Risk acceptance
+
+
+Vendors allow apps to be created and run on their infrastructure
+Platform as a Service (PaaS)
+
+
+Applications are remotely run over the Web
+Software as a Service (SaaS)
+
+
+Provides the people in an organization with guidance about their expected behavior
+Policies
+
+
+Outlines what the policy intends to accomplish and which documents, laws, and practices the policy addresses
+Scope statement
+
+
+Provides the goal of the policy, why it's important, and how to comply with it
+Policy overview statement
+
+
+Addresses who (usually expressed as a position, not the actual name of an individual) is responsible for ensuring that the policy is enforced
+Accountability statement
+
+
+Provides specific guidance about the procedure or process that must be followed in order to deviate from the policy
+Exception statement
+
+
+Deals with specific issues or aspects of a business. Derived from policies.
+Standard
+
+
+Help an organization implement or maintain standards by providing information on how to accomplish the policies and maintain the standards
+Guidelines
+
+
+Define what controls are required to implement and maintain the sanctity of data privacy in the work environment
+Privacy policies
+
+
+Describe how the employees in an organization can use company systems and resources, both software and hardware
+Acceptable use policies (AUPs)
+
+
+Define what controls are required to implement and maintain the security of systems, users, and networks
+Security policies
+
+
+Requires all users to take time away from work to refresh, gives the company a chance to make sure that others can fill in any gaps in skills, and provides an opportunity to discover fraud
+Mandatory vacation policy
+
+
+Defines intervals at which employees must rotate through positions
+Job rotation policy
+
+
+Granting only those permissions users need and blocking those that they do not
+Least privilege policy
+
+
+Outlines those internal to the organization who have the ability to step into positions when they open up
+Succession planning
+
+
+Management, Operational, and Technical
+Control types
+
+
+use planning and assessment methods to reduce and manage risk; (risk assessment, planning, system and services acquisition, certification, accreditation, and security assessment, i.e. vulnerability and pen testing)
+Management controls
+
+
+ensure that day-to-day operations of an organization comply with their
+overall security plan; (personnel security, physical and environmental protection, contingency planning, configuration and change management, maintenance, system and information integrity, media protection, incident response, awareness and training)
+Operational controls
+
+
+use technology to reduce vulnerabilities; (identification and authentication, logical access control, audit and accountability, encryption, IDS, firewall)
+Technical controls
+
+
+Triggered alerts that aren't really incidents
+False positive
+
+
+You are not alerted to a situation when you should be alerted
+False negative
+
+
+Based on what is known in the industry and those methods that have consistently shown superior results over those achieved by other means
+Best practices
+
+
+The process of evaluating all of the essential systems and components in an organization, scenarios that can impact them, and their max downtime; determine potential losses from an incident
+Business impact analysis (BIA)
+
+
+Systems that must be returned to operation in order for the business to continue
+Critical Functions
+
+
+Which applications or systems have priority based on the resources available when business is continued after an event
+Prioritizing Critical Business Functionsr
+
+
+the maximum time that a critical function can be unavailable
+Calculating a Timeframe for Critical Systems Loss
+
+
+Refers to the measures used to keep services and systems operational during an outag
+High availability (HA)
+
+
+Refers to systems that either are duplicated or fail over to other systems in the event of a malfunction
+Redundancy
+
+
+Refers to the process of reconstructing a system or switching over to other systems when a failure is detected
+Failover
+
+
+Multiple systems connected together cooperatively and networked in such a way that if any of the systems fail, the other systems take up the slack and continue to operate
+Clustering
+
+
+The ability of a system to sustain operations in the event of a component failure
+Fault tolerance
+
+
+A technology that uses multiple disks to provide fault tolerance
+Redundant Array of Independent Disks (RAID)
+
+
+maps multiple drives together as a single physical drive; done primarily for performance, not for fault tolerance; if any drive fails, the entire logical drive becomes unusable
+RAID 0 (disk striping)
+
+
+for every disk there is an identical disk; minimum of two disks are needed; 50 percent is used for data and the other 50 percent for the mirror; if the primary drive(s) fails, the system keeps running on the backup drive
+RAID 1 (disk mirroring)
+
+
+combines three or more disks with the data distributed across the disks; uses one dedicated disk to store parity information; if a disk fails, the data remaining on the other disks, along with the parity information, allows the data to be recovered.
+RAID 3 (disk striping with a parity disk)
+
+
+combines three or more disks in a way that protects data against the loss of any one disk; parity information is spread across all of the disks in the array instead of being limited to a single disk
+RAID 5 (disk striping with distributed parity)
+
+
+combines four or more disks in a way that protects data against the loss of any two disks by adding an additional parity block to RAID 5; each of the parity blocks is distributed across the drive array so parity is not dedicated to any specific drive
+RAID 6 (disk striping with dual parity)
+
+
+a mirrored data set which is then striped; requires a minimum of four drives: two mirrored drives to hold half of the striped data, plus another two mirrored drives for the other half of the data
+RAID 1+0
+
+
+a striped data set which is then mirrored; requires a minimum of four drives: two mirrored drives to replicate the data on the RAID 0 array
+RAID 0+1
+
+
+The ability to recover system operations after a disaster
+Disaster recovery
+
+
+Individuals sitting around a table with a facilitator discussing situations that could arise and how best to respond to them
+Tabletop exercise
+
+
+The network card looks at any packet that it sees on the network, even if that packet is not addressed to that network card
+Promiscuous mode
+
+
+System logs that record various events that occur
+Event logs
+
+
+Contains various events logged by applications or programs
+Application Log
+
+
+Contains successful/unsuccessful logon attempts and events showing when files or other objects are created, opened, or deleted
+Security Log
+
+
+Contains failed user logins in Linux
+var/log/faillog
+
+
+Records application crashes in Linux
+/var/log/apport.log
+
+
+Disabling all unneeded services, removing unneeded software, applying patches, etc.
+Operating system hardening
+
+
+Periodic update that corrects problems in one version of a product and provide tools, drivers, and updates that extend product functionality
+Service pack
+
+
+Code fixes for products that are provided to individual customers when those customers experience critical problems for which
+no feasible workaround is available
+Updates
+
+
+Address security vulnerabilities
+Security updates
+
+
+any given user (or system) is given the minimum privileges necessary to accomplish his or her job
+Principle of least privileges
+
+
+Allows only two types of protection: share-level and user-level access privileges. If a user has Write or Change Access permissions to a drive or directory, they have access to any file in that directory (not secure and rarely used today)
+File Allocation Table (FAT)
+
+
+Files, directories, and volumes can each have their own security; tracks security in access control lists (ACLs); can specify what type of access is given, such as Read-Only, Change, or Full Control; provides encryption
+New Technology Filesystem (NTFS)
+
+
+Created for use in managing the computer on the network, can be permanently disabled only through Registry edits; needed for full network functionality
+Hidden administrative shares with names
+that end with a dollar sign character (C$, admin$, and so on)
+
+
+Limit access to the network to MAC addresses that are known, and filter out those that are not
+MAC limiting and filtering
+
+
+Takes security for the network down to the switch port level; authentication server used to grant or deny access
+802.1X
+
+
+disable the service AND block the port in the firewall
+disable unused ports
+
+
+state of the network at start of monitoring; baseline state known to be secure
+baseline configuration
+
+
+regular measurements of network traffic levels, routine evaluations for regulatory compliance, and checks of network security device configurations; ongoing audit of what resources a user actually accesses
+continuous monitoring
+
+
+review of security logs, review of policies and compliance with policies, check of security device configuration, review of incident response reports
+security audit
+
+
+process to remediate gap in the security posture usually discovered during continuous monitoring
+remediation policy
+
+
+indications of an ongoing current problem
+alarms
+
+
+issues to which need to pay attention but are not about to bring the system down at any moment
+alerts
+
+
+increase or decrease in events over time such as email-based phishing attempts
+trends
+
+
+draws attackers away from a higher-value system or allows administrators to gain intelligence about an attack strategy
+honeypot
+
+
+allows applications (HTTP, SMTP) to access services or protocols to exchange data
+application layer
+
+
+HTTP
+TCP/UDP port 80
+
+
+HTTPS
+TCP port 443
+
+
+FTP
+TCP port 20 (data) and 21 (control)
+
+
+SCP
+UDP port 22
+
+
+SMTP
+TCP port 25
+
+
+NetBIOS session service
+TCP/UDP port 139
+
+
+DNS
+UDP port 53
+
+
+POP3
+TCP port 110
+
+
+IMAP
+TCP/UDP port 143
+
+
+provides the application layer with
+session and datagram communications services (TCP/UDP)
+transport layer
+
+
+responsible for providing a reliable, one-to-one, connection-oriented session
+Transmission Control Protocol (TCP)
+
+
+provides an unreliable connectionless communication method between hosts
+User Datagram Protocol (UDP)
+
+
+responsible for routing, IP addressing, and packaging
+Internet layer
+
+
+routable protocol responsible for IP
+addressing; fragments and reassembles message packets
+Internet Protocol (IP)
+
+
+responsible for resolving IP addresses to network interface layer addresses, including hardware addresses
+Address Resolution Protocol (ARP)
+
+
+provides maintenance and reporting functions such as Ping
+Internet Control Message Protocol (ICMP)
+
+
+responsible for placing and removing packets on the physical network
+Network Access Layer
+
+
+SSH or SCP
+TCP/UDP port 22
+
+
+command to view active TCP and UDP ports
+netstat or netstat -a (for all)
+
+
+allow programmers to create interfaces to the protocol suite
+application programming interfaces (APIs)
+
+
+Microsoft's interface to the TCP/IP protocol suite
+Windows Sockets (Winsock) API
+
+
+uses ports 860 and 3260; for allowing data storage and transfers across the existing network; enables the creation of storage area networks (SANs)
+iSCSI (Internet Small Computer Systems Interface)
+
+
+created for the same purpose as iSCSI but
+intended to work only on fiber-based networks
+Fibre Channel
+
+
+an area where you can place a public server for access by people you might not trust otherwise; accomplished using firewalls to isolate your network
+demilitarized zone
+
+
+host that exists outside the DMZ and is open to the public such as routers and firewalls
+bastion host
+
+
+divides a network into smaller components; provides more networks but a smaller number of hosts; makes the network more secure by confining traffic to the network that it needs to be on, reduces overall network traffic and creates more broadcast domains, thus reducing the range of network-wide broadcast traffic
+subnetting
+
+
+allows you to create groups of users and systems and segment them on the network; lets you hide segments of the network
+from other segments and thereby control access; increases security by allowing users with similar data sensitivity levels to be segmented together
+virtual local area network (VLAN)
+
+
+supports encapsulation in a single point-to-point environment; encapsulates and encrypts PPP packets; negotiation between the two ends of a PPTP connection is done in the clear (major weakness of PPTP); after negotiation is performed, the channel is encrypted; developed by Microsoft; uses TCP port 1723
+Point-to-Point Tunneling Protocol (PPTP)
+
+
+developed by Cisco as a method of
+creating tunnels primarily for dial-up connections; similar in capability to PPP;
+shouldn't be used over WANs; provides authentication but doesn't provide encryption
+Layer 2 Forwarding (L2F)
+
+
+hybrid of PPTP and L2F; does not provide encryption; security can be provided by protocols such as IPSec
+Layer 2 Tunneling Protocol (L2TP)
+
+
+tunneling protocol originally designed for Unix systems; uses encryption to establish a secure connection between two systems
+Secure Shell (SSH)
+
+
+used in conjunction with tunneling protocols; oriented primarily toward
+LAN-to-LAN connections; provides
+secure authentication and encryption of data and headers; can work in either Tunneling mode or Transport mode; in Tunneling mode the data or payload and message headers are encrypted; in Transport mode only the payload is encrypted
+Internet Protocol Security (IPSec)
+
+
+creating a virtual dedicated connection between two systems or networks; encapsulating the data in a mutually
+agreed-upon protocol for transmission
+Tunneling
+
+
+connection established via dial-up, VPNs, ISDN, DSL, and cable modem; may be secure or in the clear depending on the protocols used in the connection
+Routing and Remote Access Services (RRAS)
+
+
+extends the number of usable Internet addresses; allows an organization to present a single address to the Internet; a NAT server effectively operates as a firewall for the network
+Network Address Translation (NAT)
+
+
+10.0.0.0-10.255.255.255
+172.16.0.0-172.31.255.255
+192.168.0.0-192.168.255.255
+private IP ranges
+
+
+a set of standards defined by the network for clients attempting to access it; usually NAC requires that clients be virus free and adhere to specified policies before allowing them on the network
+network access control (NAC)
+
+
+passes or blocks traffic most commonly using a combination of the packet's source and destination address, its protocol, and the port number; pays no attention to whether a packet is part of an existing stream of traffic
+packet filtering firewall
+
+
+intermediary between trusted and untrusted networks; intercepts all of the packets and reprocesses them for use internally; can also be used for caching
+proxy firewall
+
+
+a system that is configured with more than one IP address
+multihomed
+
+
+reads the individual commands of the protocols that are being served; must know the rules and capabilities of the protocol used
+application-level proxy
+
+
+creates a circuit between the client and the server and doesn't deal with the contents of the packets that are being processed
+circuit-level proxy
+
+
+make decisions based on the data that comes in—the packet, for example—and not based on any complex decisions
+stateless firewalls
+
+
+records are kept using a state table that tracks every communications channel; it remembers where the packet came from and where the next one should come from
+stateful firewalls
+
+
+used to translate from LAN framing to WAN framing (for example, a router that connects a 100BaseT network to a T1 network)
+Channel Service Unit/Data Service Unit (CSU/DSU)
+
+
+shifting a load from one device to another; reduces the response time, maximizes throughput; allows better allocation of resources; reduces downtime
+load balancing
+
+
+proxy server (performing proxy and caching functions) with web protection software built in; can detect and/or prohibit inappropriate content, peer-to-peer connection with a file-sharing site, instant messaging, unauthorized tunneling; can also block known HTTP/HTML exploits, strip ActiveX tags, strip Java applets, and block/strip cookies
+web security gateway
+
+
+hardware device used to create remote access VPNs; creates encrypted tunnel sessions between hosts
+VPN concentrator
+
+
+software that runs either on individual workstations or on network devices to monitor and track network activity; can be
+configured to evaluate system logs, look at suspicious network activity, and disconnect sessions that appear to violate security settings
+intrusion detection system (IDS)
+
+
+an element of a data source that is of interest to the security analyst; for example
+might be a TCP connection request that occurs repeatedly from the same IP address
+activity
+
+
+a message from the analyzer (IDS) indicating that an event of interest has occurred; contains information about the activity as well as specifics of the occurrence
+alert
+
+
+the component or process (detection engine) that analyzes the data collected by the sensor
+analyzer
+
+
+the raw information that the IDS uses to detect suspicious activity; may include audit files, system logs, or the network traffic as
+it occurs
+data source
+
+
+an occurrence in a data source that indicates that a suspicious activity
+has occurred
+event
+
+
+the component or process the operator uses to manage the IDS; usually a web console
+manager
+
+
+the person primarily responsible for the IDS
+operator
+
+
+the IDS component that collects data from the data source and passes it to the analyzer for analysis
+sensor
+
+
+looks for variations in behavior such as unusually high traffic, policy violations, and so on
+behavior-based-detection IDS
+
+
+primarily focused on evaluating attacks based on attack signatures and audit trails
+signature-based-detection IDS
+
+
+a generally established method of attacking a system; for example, a TCP flood attack begins with a large number of incomplete TCP sessions
+Attack signatures
+
+
+learns what the normal operation is and then spots deviations from it; can establish
+the baseline either by being manually assigned values or through automated processes that look at traffic patterns
+anomaly-detection IDS
+
+
+uses algorithms to analyze the traffic passing through the network; require more tweaking and fine-tuning to prevent false positives
+heuristic IDS
+
+
+an artifact observed on a network or in operating system that with high confidence indicates a computer intrusion; represents intrusion signature; IDS can be tuned to watch for the signature to prevent future compromise
+indicators of compromise (IOCs)
+
+
+1. logging: involves recording that an event has occurred and under what circumstances
+2. notification: communicates event-related information to the appropriate personnel when an event has occurred
+3. shunning: ignoring an attack deemed to be non-threatening
+IDS passive responses
+
+
+1. terminating processes or sessions: for example, force resets to all of the TCP sessions
+2. network configuration changes: for example, close port 80 for 60 seconds to terminate an IIS attack
+3. deception: fools the attacker into thinking that the attack is succeeding while the system monitors the activity
+IDS active responses
+
+
+designed to run as software on a host computer system; examines the machine logs, system events, and applications interactions; doesn't monitor incoming network traffic
+host-based IDS (HIDS)
+
+
+focus on signature matches and then take a course of action
+network intrusion prevention systems (NIPSs)
+
+
+/var/log/faillog
+/var/log/lastlog
+/var/log/messages
+/var/log/wtmp
+Linux logs that might indicate an intrusion
+
+
+the process of monitoring the data that is transmitted across a network
+protocol analyzer/packet sniffer
+
+
+an all in one appliance that combines several security functions such as firewall, intrusion prevention, antivirus, content filtering, etc.)
+Unified Threat Management (UTM)
+
+
+involves blocking websites (or sections of websites) based solely on the URL, restricting access to specified websites and certain web-based applications; SmartScreen Filter in IE acts as a URL filter
+URL filtering
+
+
+block data based on its content rather than from where the
+data originates
+content filters
+
+
+real-time appliance that applies a set of rules to block traffic to and from web servers and to try to prevent attacks such as
+cross-site scripting (XSS) and forged HTTP requests
+web application firewall (WAF)
+
+
+has the ability to respond to traffic based on what is there; combines SNMP and quality of service to be able to prioritize traffic based on the importance and value of the content
+application-aware device
+
+
+claiming an identity
+identification
+
+
+a mechanism of verifying identification
+authentication
+
+
+whenever two or more parties authenticate each other
+mutual authentication
+
+
+two or more access methods are included as part of the authentication process
+multifactor authentication
+
+
+collection of computer networks that agree on standards of operation, such as security standards
+federation
+
+
+a means of linking a user's identity with their privileges in a manner that can be used across business boundaries (for example, Microsoft Passport or Google checkout); being able to access resources on diverse networks
+federated identity
+
+
+one party (A) trusts another party (B).
+If the second party (B) trusts another party (C), then a relationship can exist where the first party (A) also may trust the third party (C)
+transitive access
+
+
+the duration before an account is unlocked; setting it to 0 requires an administrator to explicitly unlock the account
+account lockout duration
+
+
+determines how many incorrect attempts a user can give before the account is locked
+account lockout threshold
+
+
+the number of minutes to wait between specified number of failed login attempts
+reset account lockout counter after
+
+
+allows authentication of remote and other network connections; a single source for authentication to take place; provides auditing and accounting
+Remote Authentication Dial-In User Service (RADIUS)
+
+
+XML-based standard used to exchange authentication and authorization information between different parties; provides SSO for web-based applications; users authenticate with one web site and are not required to authenticate again when
+accessing another web site
+Security Assertion Markup Language (SAML)
+
+
+a standardized directory access protocol
+that allows queries to be made of directories; uses port 389; use secure LDAP (LDAPS) for encryption; port 636
+Lightweight Directory Access Protocol (LDAP)
+
+
+allows for a single sign-on to a distributed network; uses a key distribution center (KDC) to orchestrate the process; KDC authenticates the principal and provides
+it with a ticket granting ticket (TGT); TGT
+lists the privileges of that user; each time the principal wishes to access some resource on the network, the principal's computer presents the KDC with the TGT; the TGT then sends that user's computer a service ticket, granting the user access to that service
+Kerberos
+
+
+all access capabilities are predefined; users
+can't share information unless their rights to share it are established by administrators; enforces a rigid model of security; considered the most secure security model; used in environments where confidentiality is a driving force; often employs government and military classifications (labels), such as Top Secret
+Mandatory Access Control (MAC)
+
+
+allows users to share information dynamically with other users; increases the
+risk of unauthorized disclosure of information
+Discretionary Access Control (DAC)
+
+
+implement access by job function or
+by responsibility; provide more flexibility than the MAC model and less flexibility than the DAC model
+Role-Based Access Control (RBAC)
+
+
+uses the settings in preconfigured security policies to make all decisions; deny or permit based on access control list; list may be usernames, IP addresses, hostnames, or even domains
+Rule-Based Access Control (RBAC)
+
+
+a process to determine whether a user's access level is still appropriate
+access review
+
+
+smart card used for accessing DoD computers, signing email, and implementing PKI;
+common access card (CAC)
+
+
+smart card used by federal employees and
+contractors to gain access (physical and logical) to government resources
+personal identity verification (PIV)
+
+
+enable devices in your network to ignore requests from specified users or systems or to grant them access to certain network capabilities
+access control lists (ACLs)
+
+
+implied at the end of each ACL, if the proviso in question has not been explicitly
+granted, then access is denied
+implicit deny
+
+
+■ Block the connection
+■ Allow the connection
+■ Allow the connection only if it is secured
+firewall actions
+
+
+works at level 2 of the OSI model and allows an administrator to configure switch ports so that only certain MAC addresses can use the port
+port security
+
+
+a protection feature built into many firewalls to tweak the tolerance for unanswered login attacks; reduces the likelihood of a successful DoS attack
+flood guard
+
+
+occurs when a device has more than one network adapter card installed
+and the opportunity presents itself for a user on one of the networks to which the device is attached to jump to the other
+network bridging
+
+
+any operating system that meets the government's standards for security; most common set of standards for security is Common Criteria (CC)
+trusted operating system (TOS)
+
+
+provides wireless bandwidth of up to 54 Mbps in the 5 GHz frequency spectrum
+802.11a
+
+
+provides for wireless bandwidth of up to 11 Mbps in the 2.4 GHz frequency spectrum
+802.11b
+
+
+provides for wireless bandwidth of up to 54 Mbps in the 2.4 GHz frequency spectrum
+802.11g
+
+
+provides for security enhancements to the wireless standard with particular focus on authentication; often referenced as WPA2
+802.11i
+
+
+operates in both the 5 GHz and the 2.4 GHz (for compatibility) ranges; can reach speeds of 600 Mbps
+802.11n
+
+
+designed to provide a privacy equivalent
+to that of a wired network; vulnerable because of weaknesses in the way its encryption algorithms (RC4) are employed; initialization vector (IV) that WEP uses for encryption is 24-bit; uses 64 or 128 bit keys
+wired equivalent privacy (WEP)
+
+
+technology designed for use with wireless
+devices; uses a smaller version of HTML called Wireless Markup Language (WML),
+wireless application protocol (WAP)
+
+
+created to implement the 802.11i standard; uses the RC4 encryption algorithm with TKIP
+WPA
+
+
+created to implement the 802.11i standard; requires Counter Mode with Cipher Block Chaining Message Authentication Code Protocol (CCMP); CCMP uses 128-bit AES encryption with a 48-bit initialization vector
+WPA2
+
+
+provides authentication, encryption, and data integrity for smaller wireless devices that don't have the same processing power as servers and desktops
+Wireless Transport Layer Security (WTLS)
+
+
+a low-power transmitter/receiver (transceiver); portable device and the access point communicate using 802.11; uses a portion of the radio frequency (RF) spectrum called microwave
+wireless access point (AP)
+
+
+designed to provide a 360-degree pattern and an even signal in all directions
+omnidirectional antenna
+
+
+forces the signal in one direction, and
+since it is focusing the signal, it can cover a greater distance with a stronger signal
+directional antenna
+
+
+requires users to authenticate and agree to
+abide by an acceptable use policy before using a network; alternative to 802.1x
+captive portal
+
+
+provides a framework for authentication that is often used with wireless networks; 802.1x servers typically use one of the EAP methods to increase the level of security during the authentication process
+Extensible Authentication Protocol (EAP)
+
+
+extension to EAP; being phased out in favor of PEAP; proprietary protocol to Cisco; created solely as a quick fix for problems with WEP; susceptible to dictionary
+attacks
+Lightweight Extensible Authentication Protocol (LEAP)
+
+
+most secure EAP standards and is widely implemented; requires certificates on the 802.1x server and on each of the wireless clients.
+EAP-TLS
+
+
+establishes an encrypted TLS tunnel between the server and the client; uses digital certificates
+Protected Extensible Authentication
+Protocol (PEAP)
+
+
+interfering with a wireless signal to keep legitimate device from communicating
+jamming
+
+
+driving around with a laptop listening for APs to communicate with
+war driving
+
+
+leaving signals on the outside of buildings to notify others that weaknesses have been discovered in a wireless network
+war chalking
+
+
+a wireless access point added to a
+network that has not been authorized
+rogue access point
+
+
+a rogue wireless access posing as a legitimate wireless service provider to intercept information that users transmit
+evil twin attack
+
+
+the sending of unsolicited messages (spam) over a Bluetooth connection
+bluejacking
+
+
+the gaining of unauthorized access through a Bluetooth connection
+bluesnarfing
+
+
+provisioned for exclusive use by a single
+organization comprising multiple consumers; may exist on or off premises
+private cloud
+
+
+provisioned for open use by the general public; exists on the premises of the cloud provider
+public cloud
+
+
+provisioned for exclusive use by a specific
+community of consumers from organizations that have shared concerns; may exist on or off premises
+community cloud
+
+
+a composition of two or more distinct cloud
+infrastructures (private, community, or public) that remain unique entities; bound together by standardized or proprietary technology that enables data and application portability
+hybrid cloud
+
+
+the foundation on which cloud computing is built; at the core is the hypervisor, the software/hardware combination that makes it possible
+virtualization
+
+
+also known as bare metal; independent of the operating system; superior to Type II
+type I hypervisor
+
+
+also known as hosted; dependent on the operating system
+type II hypervisor
+
+
+an image of a VM; contains a copy of the virtual machine settings, information
+on all virtual disks attached, and the memory state of the machine
+snapshot
+
+
+addressed in the Service Level Agreement (SLA); goal is minimal downtime: five 9s, (99.999 percent uptime);
+host (hypervisor) availability
+
+
+virtualizaton capabilities can be provisioned and released, to scale rapidly outward and inward commensurate with demand at any time and appear to be unlimited
+elasticity
+
+
+interviews, examinations, and testing of systems to look for weaknesses; contract reviews of SLAs; history of prior breaches
+security control testing (in a virtualization environment)
+
+
+involves running apps in restricted memory areas; prevents exposure among VM's due to app crashes
+sandboxing
+
+
+different customers data can be on the same system; security incident could originate with one customer at the cloud provider and compromise another customer; data segregation can help reduce some of the risks
+multitenancy
+
+
+the database and the application exist on a single system; common on desktop systems running a standalone database
+one-tier model
+
+
+the client workstation or system runs an application that communicates with the database that is running on a different server
+two-tier model
+
+
+isolates the end user from the database by introducing a middle-tier server (proxy)
+three-tier model
+
+
+the technique of providing unexpected values as input to an application in order to make it crash; validate all input to ensure it is of the expected type to prevent
+fuzzing
+
+
+can best prevent cross-site scripting, SQL injection and buffer overflows
+secure coding
+
+
+a voluntary group dedicated to forming secure coding practices for web-based applications
+OWASP
+
+
+works by taking input a user enters into a text field on the client side and checking for invalid characters or input; validation is done on the client web page before any data is sent to the server
+client-side validation
+
+
+checking business logic to see if the data sent conforms to expected parameters; validating data after the server has received it
+server-side validation
+
+
+details standards for secure coding; cover many of the same issues as OWASP and standards for Java, Perl, C, and C++.
+Computer Emergency Response Team (CERT)
+
+
+how errors are handled when programs
+encounter errors; simple but helpful message to the end user and log the detailed information
+exception handling
+
+
+involves comparing performance to a metric such as network performance or CPU usage
+baselining
+
+
+an immediate and urgent patch; represent serious security issues and are not option
+hotfix
+
+
+provides some additional functionality or a
+non-urgent fix; sometimes optional
+patch
+
+
+cumulative assortment of the hotfixes and patches to date
+service pack
+
+
+user can read, execute, write and assign permissions to other uses
+full control
+
+
+user can read, write and delete
+modify
+
+
+user can read and execute
+read and execute
+
+
+user can read but not modify
+read
+
+
+user can read and modify
+write
+
+
+list of who can access what resource and at what level
+access control list (ACL)
+
+
+list of things that are allowed
+white list
+
+
+lists of things that are prohibited
+black list
+
+
+the minimum security needs of an organization; the level of security that will be implemented and maintained
+security baseline
+
+
+limits the traffic allowed through a web server
+filter
+
+
+often written in PHP, Python, Java, and
+Common Gateway Interface (CGI); often run at elevated permission levels
+executable scripts
+
+
+the act of gathering data about a network in
+order to find vulnerabilities and any means of entry
+footprinting
+
+
+data is introduced into a DNS resolver's cache, causing the name server to return an incorrect IP address and diverting traffic to the attacker's computer (or any other computer)
+DNS poisoning
+
+
+all changes to the data are archived
+full backup
+
+
+all changes since the last full backup are archived
+differential backup
+
+
+all changes since the last backup of any type are archived
+incremental backup
+
+
+multiple computers connected together to work/act together as a single server; provides high availability; utilizes parallel processing and adds redundancy
+clustering
+
+
+systems that monitor the contents of systems (workstations, servers,
+and networks) to make sure that key content is not deleted or removed and who is using and transmitting the data
+Data Loss Prevention (DLP)
+
+
+hardware-based encryption; chip that can store cryptographic keys, passwords, or certificates; can be used to assist with hash key generation
+Trusted Platform Module (TPM)
+
+
+shifting letters a certain number of spaces in the alphabet
+Caesar cipher
+
+
+rotates every letter 13 places in the alphabet
+ROT13 cipher
+
+
+similar to Caesar cipher except multiple alphabets are used (Enigma machine)
+Vigenère cipher
+
+
+type of coding or ciphering system that changes one character or symbol into another
+substitution cipher
+
+
+the process of hiding a message in a medium such as a digital image, audio file, or other file using least significant bit method
+steganography
+
+
+the same key and processing algorithms are used to encrypt and decrypt; uses either a block or stream cipher
+symmetric algorithm
+
+
+a method of encrypting text (to produce ciphertext) in which a cryptographic key and algorithm are applied to a block of data
+block cipher
+
+
+data is encrypted one bit, or byte, at a time
+stream cipher
+
+
+Data Encryption Standard (DES), Triple-DES (3DES), Advanced Encryption Standard (AES), AES256, CAST, Ron's Cipher (RC4, RC5, and RC6), Blowfish and Twofish, International Data Encryption Algorithm (IDEA), One-Time Pads
+symmetric algorithms
+
+
+based on a 56-bit key
+Data Encryption Standard (DES)
+
+
+168 bit key length (using three 56-bit DES keys)
+Triple-DES (3DES)
+
+
+uses the Rijndael algorithm; supports key sizes of 128, 192, and 256
+Advanced Encryption Standard (AES)
+
+
+uses 256 bits instead of 128; qualifies for U.S. government classification as Top Secret
+AES256
+
+
+uses a 40-bit to 128-bit key; CAST-128 and CAST-256 also exist
+CAST
+
+
+produced by RSA laboratories; current levels
+are RC4, RC5, and RC6; RC5 uses a key size of up to 2048 bits; RC4 is popular with wireless and WEP/WPA encryption with key sizes between 40 and 2048 bits and is used in SSL and TLS
+Ron's Cipher
+
+
+Blowfish is a 64-bit block cipher that can use variable-length keys (from 32 bits to 448 bits); Twofish is similar and works
+on 128-bit blocks
+Blowfish and Twofish
+
+
+an algorithm that uses a 128-bit key; used
+in Pretty Good Privacy (PGP)
+International Data Encryption Algorithm
+(IDEA)
+
+
+the only truly completely secure cryptographic implementation; uses a key that is as long as a plaintext message; one-time pad keys are used only once and then discarded
+one-time pads
+
+
+use two keys to encrypt and decrypt data; referred to as the public key and the private key
+asymmetric algorithm
+
+
+RSA, Diffie-Hellman, Elliptic Curve Cryptography (ECC), ElGamal
+asymmetric algorithms
+
+
+most commonly used public-key algorithm; used for encryption and digital signatures
+RSA
+
+
+used merely for the creation of a symmetric key between two parties (key agreement)
+Diffie-Hellman
+
+
+similar functionality to RSA but uses smaller key sizes to obtain the same level of security
+Elliptic Curve Cryptography (ECC)
+
+
+uses an ephemeral key which is a key that exists only for that session; used for transmitting digital signatures and key exchanges
+ElGamal
+
+
+1. must be one-way 2. variable-length input produces fixed-length output 3. must have few or no collisions
+hashing function
+
+
+Secure Hash Algorithm (SHA), Message Digest Algorithm (MD), RACE Integrity Primitives Evaluation Message Digest (RIPEMD), GOST, LANMAN, NTLM (NT LAN Manager)
+hashing functions
+
+
+designed to ensure the integrity of a message; produces a 160-bit hash value; SHA-2 has several sizes: 224, 256, 334, and 512 bit; most widely used and recommended
+Secure Hash Algorithm (SHA)
+
+
+designed to ensure the integrity of a message; most common are MD5, MD4, and MD2; MD5 produces a 128-bit hash; does not have strong collision resistance
+Message Digest Algorithm (MD)
+
+
+based on MD4; replaced by RIPEMD-160, which uses 160 bits
+RACE Integrity Primitives Evaluation Message Digest (RIPEMD)
+
+
+processes a variable-length message into a fixed length output of 256 bits
+GOST
+
+
+used by Microsoft OS for authentication and used LM Hash and two DES keys; replaced by the NT LAN Manager (NTLM)
+LANMAN
+
+
+used by Microsoft OS for authentication; uses MD4/MD5 hashing algorithms
+NTLM (NT LAN Manager)
+
+
+a precomputed table for reversing cryptographic hash functions, usually for cracking password hashes
+rainbow table
+
+
+countermeasure against rainbow table; the addition of bits at key locations, either before or after the hash
+salting
+
+
+used to take a weak password and make it stronger, usually by making it longer; two methods are PBKDF2 and Bcrypt
+key stretching
+
+
+frequency analysis, chosen plaintext, related key attack, brute-force attacks, exploiting human error
+cryptanalysis techniques
+
+
+examining blocks of an encrypted message
+to determine if any common patterns exist; does not work on modern algorithms
+frequency analysis
+
+
+attacker obtains the ciphertexts corresponding to a set of plaintexts; best understood in the context of public key cryptography, where the encryption key is public and so attackers can encrypt any plaintext they choose
+chosen plaintext
+
+
+similar to a chosen-plaintext attack, except the attacker obtains ciphertexts encrypted under several different secret keys related in some way
+related key attack
+
+
+attempting every possible combination of characters in the keyspace in order to deduce the key
+brute-force attack
+
+
+a short piece of information used to authenticate a message and to provide integrity and authenticity assurances on the message
+message authentication code
+(MAC)
+
+
+a message authentication code that uses a cryptographic key in conjunction with a hash function
+HMAC (Hash-Based Message Authentication Code)
+
+
+keys needed to encrypt/decrypt data are held in an escrow account
+key escrow
+
+
+an entity that has the ability to recover a key, key components, or plaintext messages as needed
+key recovery agent
+
+
+the process of providing certificates to users; typically handled by a registration
+authority (RA)
+key registration
+
+
+list of certificates that should no longer be used; being replaced by a real-time
+protocol called Online Certificate Status Protocol (OCSP)
+certificate revocation list (CRL)
+
+
+defines the certificate formats and fields for public keys and the procedures used to distribute public keys; X.509 v2 for CRL and v3 for certificate
+X.509
+
+
+issued by a CA to an end entity; an end entity is a system that doesn't issue certificates but merely uses them
+end-entity certificate
+
+
+issued by one CA to another CA; the second CA can, in turn, then issue certificates to an end entity
+CA certificate
+
+
+a combination of methods, such as an authentication, encryption, and message
+authentication code (MAC) algorithms used together
+cipher suite
+
+
+a messaging protocol used between PKI entities
+Certificate Management Protocol (CMP)
+
+
+a standard used for encrypting email; contains signature data; uses the PKCS #7 standard; uses asymmetric encryption algorithms for confidentiality and digital certificates for authentication
+Secure Multipurpose Internet Mail Extensions (S/MIME)
+
+
+provides encryption for credit card numbers; works in conjunction with an electronic wallet
+Secure Electronic Transaction (SET)
+
+
+tunneling protocol originally used on Unix systems; primarily intended for interactive
+terminal sessions
+Secure Shell (SSH)
+
+
+a freeware email encryption system; uses both symmetrical and asymmetrical systems as a part of its process
+Pretty Good Privacy (PGP)
+
+
+secure version of HTTP; uses SSL to secure the channel between the client and server; uses port 443 by default
+Hypertext Transport Protocol over SSL (HTTPS)
+
+
+HTTP with message security (added by
+using RSA or a digital certificate); whereas HTTPS creates a secure channel, S-HTTP creates a secure message; can use multiple protocols and mechanisms to protect the
+message; provides data integrity and authentication
+Secure Hypertext Transport Protocol (S-HTTP)
+
+
+security protocol that provides authentication and encryption across the Internet; standard for encrypting VPN channels; works at layer 3 of the OSI model
+IP Security (IPSec)
+
+
+one of two primary protocols used by IPSec; can operate in either the transport or tunnel
+mode; uses port 51
+Authentication Header (AH)
+
+
+one of two primary protocols used by IPSec; can operate in either the transport or tunnel
+mode; uses port 50
+Encapsulating Security Payload (ESP)
+
+
+add the ability to create tunnels between networks that can be more secure, support additional protocols, and provide virtual paths between systems
+tunneling protocols
+
+
+set of guidelines for U.S. federal
+government information systems; used when an existing commercial or governmental system doesn't meet federal security requirements; issued by NIST
+Federal Information Processing Standard (FIPS)
+
+
+asymmetric system with four main components: certificate authority
+(CA), registration authority (RA), RSA (the encryption algorithm), and digital certificates
+Public-Key Infrastructure (PKI)
+
+
+an organization that is responsible for issuing, revoking, and distributing certificates
+certificate authority (CA)
+
+
+a mechanism that associates the public key with an individual
+certificate
+
+
+a request for a digital certificate; contains the desired public key and fully distinguished name (often a domain name)
+certificate-signing request (CSR)
+
+
+offloads some of the work from a CA; it can distribute keys, accept registrations for the CA, and validate identities; doesn't issue certificates; that responsibility remains with
+the CA
+registration authority (RA)
+
+
+used to verify and certify the identity of the individual on behalf of the CA then forward authentication documents to the CA to issue
+the certificate; performs the physical identification of the person requesting a certificate
+local registration authority (LRA)
+
+
+define what certificates do; email, e-commerce, financial transactions, etc.;
+certificate policies
+
+
+a detailed statement the CA uses to issue certificates and implement its policies; the CA provides the CPS to users of its services
+Certificate Practice Statement (CPS)
+
+
+the process of revoking a certificate before it expires
+certificate revocation
+
+
+■ Hierarchical
+■ Bridge
+■ Mesh
+■ Hybrid
+four main types of trust models used with PKI
+
+
+root CA(s) are at the top of the tree; intermediate CAs below the CA trust only the root CA(s); root CA(s) also trusts intermediate CAs that are in their level in the hierarchy and none that aren't; allows a high level of control
+hierarchical trust model
+
+
+a peer-to-peer relationship exists among the root CAs; root CAs can communicate with one another, allowing cross certification; allows a certification process to be established between organizations or departments; each intermediate CA trusts only the CAs above and below it, but the CA structure can be expanded without creating additional layers of CAs
+bridge trust model
+
+
+supports multiple paths and multiple root CAs; each of the root CAs can cross-certify with the other root CAs in the mesh; useful in a situation where several organizations must cross-certify certificates; advantage is more flexibility when configuring CA structures; disadvantage is each root CA must be trustworthy in order to maintain security
+mesh trust model
+
+
+can use the capabilities of hierarchical, bridge and mesh; can be extremely flexible but also complicated and confusing; user can unintentionally acquire trusts that they shouldn't have obtained
+hybrid trust model
+
+
+stealthy type of software, typically malicious, designed to hide the existence of certain processes or programs from normal methods of detection and enable continued privileged access to a computer
+rootkit
+
+
+program that enter a system or network under the guise of another program
+trojan horse
+
+
+programs or code snippets that execute when a certain predefined event occurs
+logic bomb
+
+
+gaining access to a network and inserting a program or utility that creates an entrance for an attacker; two popular backdoor tools are Back Orifice and NetBus
+backdoor
+
+
+changes form in order to avoid detection
+polymorphic virus
+
+
+attempts to avoid detection by masking itself from applications
+stealth virus
+
+
+attacks or bypasses the antivirus software installed on a computer
+retro virus
+
+
+attacks a system in multiple ways
+multipartite virus
+
+
+designed to make itself difficult to detect or
+analyze
+armored virus
+
+
+attaches itself to legitimate programs and then creates a program with a different filename extension
+companion virus
+
+
+modifies and alters other programs and databases
+phage virus
+
+
+exploits the enhancements made to many application programs, which are used by programmers to expand the capability of applications
+macro virus
+
+
+intended to redirect a website's traffic to another fake site usually by changing the hosts file on a victim's computer
+pharming attack
+
+
+an advanced port scan that sets specific flags in TCP packet header in order to learn details of operating system
+xmas tree attack
+
+
+targets vulnerabilities in client applications that interact with a malicious server; user accesses the trusted site and unwittingly downloads rogue code; allows attacker same privilege level of the individual who
+accessed the server
+client-side attack
+
+
+identifies web sites likely to be visited by chosen class of victims then infect those sites with malware
+watering hole attack
+
+
+typically found in Web applications; enables attackers to inject client-side script into Web pages viewed by other users; countermeasure is to block the use of HTML and JavaScript tags
+cross-site scripting (XSS)
+
+
+an attacker is able to gain access to restricted directories (such as the root directory) through HTTP
+directory traversal attack
+
+
+an application receives more data than it's programmed to accept which can cause an application to terminate or to write data beyond the end of the allocated space
+buffer overflow
+
+
+involves putting too much information into too small of a space
+integer overflow
+
+
+data stored on a user's computer by Adobe Flash
+Locally Shared Object (LSO) or Flash Cookie
+
+
+uses other methods (hijacking, cross-site forgery, and so forth) to change values in HTTP headers and falsify access
+header manipulation
+
+
+an attacker's ability to execute any commands of the attacker's choice on a target machine or in a target process; usually due to software bugs
+arbitrary code execution
+
+
+examining header information in order to identify the host, the operating system running on it, and other information
+banner grabbing
+
+
+to examine custom written code for holes or threats that may exist such as opportunities for injection to occur (SQL, LDAP, code, and
+so on), cross-site request forgery, and authentication
+code review
+
+
+the area of an application that is available to users, unauthenticated or not, including the services, protocols, interfaces, and code
+application attack surface
+
+
+minimize the possibility of exploitation by reducing the amount of code and limiting potential damage; turning off unnecessary functions, reducing privileges, limiting
+entry points, and adding authentication requirements
+application attack surface reduction
+
+
+the network is secure enough to allow for the transmission of classified information in unencrypted format—in other
+words, where physical network security has been substituted for encryption security
+protected distribution system (PDS)
+
+
+an area in a building where access is individually monitored and controlled
+security zone
+
+
+an electrically conductive wire mesh or other conductor woven into a "cage" that surrounds a room; few electromagnetic signals can either enter or leave the room, thereby reducing the ability to eavesdrop on a computer conversation
+Faraday cage
+
+
+intended to delay or discourage an attack; includes fencing, signs, barricades, lighting, locks
+deterrent control
+
+
+attempt to prevent an incident from occurring; includes locked doors, biometric devices, guards, hardening systems, security awareness and training, change management
+preventive control
+
+
+intended to uncover a violation after preventive control has failed; includes door alarm, antivirus scanner, sonic detector, motion sensor, log monitoring, security audit
+detective control
+
+
+attempt to reverse the impact of an incident; includes IPS, backups and system recovery
+corrective control
+
+
+backup controls that come into play only when other controls have failed, includes motion sensors, alarms
+compensating control
+
+
+implemented through technology; includes firewalls, IDS, IPS
+technical control
+
+
+policies, procedures, and guidelines; includes how to respond to an incident, process to follow when an employee is terminated
+administrative control
+
+
+■ Wiping - how is data removed from media
+■ Disposing - how are media discarded
+■ Retention - how long must data be kept
+■ Storage - where is data kept
+data policy
+
+
+■ public use
+■ internal use
+■ restricted use
+information categories
+
+
+not intended for release to the public; includes loan applications
+limited distribution information
+
+
+marketing materials, annual reports, other information of a public relations nature
+full distribution information
+
+
+intended only for internal use within the organization; includes trade secrets and emails
+private information
+
+
+centralized method of authentication for multiple remote access servers; encrypts the password packets, but not the entire authentication process; uses UDP
+RADIUS
+
+
+a remote access service handshake process with mutual authentication; reduces the risk of a client sending sensitive data to a rogue server
+Microsoft Challenge Handshake Authentication Protocol (MS-CHAPv2)
+
+
+provides a centralized method of authentication for multiple remote access servers; supports EAP for enhanced security; alternative to RADIUS; uses TCP
+Diameter
+
+
+used with Point-to-Point Protocol (PPP) to
+authenticate clients; sends passwords or PINs over a network in cleartext;
+Password Authentication Protocol (PAP)
+
+
+used with Point-to-Point Protocol (PPP) to
+authenticate clients; more secure than PAP; passwords are not sent over the network in cleartext
+Challenge Handshake Authentication Protocol (CHAP)
+
+
+Cisco alternative to RADIUS; used for
+remote access and authentication with routers and other network devices; uses
+multiple challenges and responses between the client and the server; encrypts the entire authentication process; uses TCP
+TACACS+
+
+
+0-1023
+well known ports range
+
+
+1024-49,151
+registered ports range
+
+
+49,152-65,535
+dynamic and private ports range
+
+
+DNS, FTP, FTPS, HTTP, HTTPS, IMAP4,
+LDAP, POP3, RDP, SCP, SFTP, SMTP, SNMP, SSH, Telnet, TFTP
+layer 7 protocols
+
+
+used in an access point (AP) to prevent clients from connecting to each other
+isolation mode
+
+
+a rogue access point with the same SSID as a legitimate access point
+evil twin
+
+
+a group of standards that allow mobile devices in close proximity to communicate; can be used for payment or transferring files
+near field communication (NFC)
+
+
+Bluetooth attack that allows an attacker to take over a mobile phone
+bluebugging
+
+
+a list of approved software and a list of
+software installed on systems
+host software baseline
+
+
+the process of comparing systems against a baseline to identify discrepancies or anomalies
+baseline reporting
+
+
+an attacker reuses captured session information to establish a connection; countermeasures are timestamps (Kerberos) and sequence numbers
+replay attack
+
+
+hashing algorithm creates the same hash from different passwords; thwarted by increasing number of bits used in the hash to increase number of possible hashes (SHA-2)
+birthday attack
+
+
+attempts to discover the password from the hash using databases of precomputed hashes; countermeasure is salting
+rainbow table attack
+
+
+modifying ARP reply packets with bogus MAC addresses to corrupt ARP caches; used to conduct MITM or DOS attacks
+ARP poisoning
+
+
+attacker creates a specially crafted HTML link that initiates an action and tricks the victim into clicking it
+cross-site request forgery
+
+
+attempts to access or modify data hosted on directory service servers
+LDAP injection attack
+
+
+penetration testers have no knowledge of the environment prior to the test; fuzz testing is often used
+black box testing
+
+
+penetration testers have full knowledge of the environment prior to the test
+white box testing
+
+
+penetration testers have some knowledge of the environment prior to the test
+grey box testing
+
+Authentication, authorization, and accounting. A group of technologies used in remote access systems. Authentication verifies a user's identification. Authorization determines if a user should have access. Accounting tracks a user's access with logs.
+AAA
+
+
+A policy defining proper system usage and the rules of behavior for employees. It often describes the purpose of computer systems and networks, how users can access them, and the responsibilities of users when accessing the systems.
+Acceptable Use Policy (AUP)
+
+
+Lists of rules used by routers and stateless firewalls. These devices use the ACL to control traffic based on networks, subnets, IP addresses, ports and some protocols.
+ACLs (Access Control Lists)
+
+
+A penetration testing method used to collect information. It sends data to systems and analyzes responses to gain information on the target.
+active reconnaissance
+
+
+A strong symmetric block cipher that encrypts data in 128 bit blocks. AES can use key sizes of 128 bits, 192 bits, or 256 bits.
+AES (Advanced Encryption Standard)
+
+
+A scheduling method uses with load balancers. It uses the client's IP address to ensure the client is redirected to the same server during a session.
+affinity
+
+
+Malicious code that attaches itself to a host application. The host application must be executed to run, and the malicious code executes when the host application is executed.
+virus
+
+
+a type of ransomware that encrypts the user's data
+crypto-malware
+
+
+a type of malware used to extort money from individuals and organizations. Ransomware typically encrypts the user's data and demands a ransom before decrypting the data.
+ransomware
+
+
+self replicating malware that travels through a network. Worms do not need user interaction to execute.
+worm
+
+
+malware also known as a trojan horse. A trojan often looks useful, but is malicious.
+trojan
+
+
+A type of malware that has system level access to a computer. Rootkits are often able to hide themselves from users and antivirus software.
+rootkit
+
+
+software or hardware used to capture a user's keystrokes. Keystrokes are stored in a file and can be manually retrieved or automatically sent to an attacker.
+keylogger
+
+
+software installed on users' systems without their awareness or consent. Its purpose is often to monitor the user's computer and the user's activity.
+spyware
+
+
+software robots that function automatically. Bots are also known as "zombies" in a botnet and are controlled by another entity.
+bots
+
+
+a group of computers that are joined together. Attackers often use malware to join computers to a botnet, and then use the botnet to launch attacks. DDoS attacks are common to use with a botnet.
+botnet
+
+
+Malware that allows an attacker to take control of a system from a remote location.
+RAT (Remote Access Trojan)
+
+
+A type of malware that executes in response to an event. The event might be a specific data or time, or a user action such as when a user launches a specific program.
+Logic bomb
+
+
+An alternate method of accessing a system. Malware often adds a backdoor into a system after it infects it.
+backdoor
+
+
+the practice of using social tactics to gain information. Social engineers attempt to gain information from people, or get people to do things they would not normally do.
+social engineering
+
+
+the practice of sending email to users with the purpose of tricking them into revealing personal information or clicking on a link.
+phishing
+
+
+a targeted form of phishing. Spear phishing attacks attempt to target specific groups of users, such as those within a specific organization, or even a single user.
+spear phishing
+
+
+A form of spear phishing that attempts to target high level executives. When successful, attackers gain confidential company information that they might not be able to get anywhere else.
+whaling
+
+
+The practice of making phone calls or leaving voice messages purporting to be from reputable companies in order to induce individuals to reveal personal information, such as bank details and credit card numbers.
+vishing
+
+
+A social engineering attack where one person follows behind another person without using credentials. Mantraps help prevent tailgating.
+tailgating
+
+
+the practice of searching through trash looking to gain information from discarded documents. Shredding or burning papers helps prevent the success of dumpster diving.
+dumpster diving
+
+
+The practice of looking over someone's shoulder to obtain information, such as one a computer screen. A screen filter placed over a monitor helps reduce the success of shoulder surfing.
+shoulder surfing
+
+
+An attack method that infects web sites that a group is likely to trust and visit.
+watering hole attack
+
+
+An attack from one target against another target. Goal is to prevent users from accessing services on the target computer.
+DoS (Denial of Service)
+
+
+an attack from two or more computers against a single target. DDoS attacks often include sustained, abnormally high network traffic on the NIC of the attacked computer. Goal is to prevent users from accessing services on the target computer.
+DDoS (Distributed Denial of Service)
+
+
+An attack using active interception or eaves dropping. It uses a third computer to capture traffic sent between two other systems.
+Man in the middle (MITM)
+
+
+an error that occurs when an application receives more input, or different input, than it expects. It exposes system memory that is normally inaccessible.
+buffer overflow
+
+
+an attack that injects code or commands. Common injection attacks are DLL injection, command injection, and SQL injection attacks.
+injection attack
+
+
+A web application vulnerability. Attackers embed malicious HTML or JavaScript code into a web site's code, which executes when a user visits the site.
+Cross-site scripting (XSS)
+
+
+A web application attack. XSRF attacks trick users into performing actions on web sites, such as making purchases, without their knowledge.
+cross site request forgery (XSRF)
+
+
+The process of gaining elevated rights and permissions. Malware typically uses a variety of techniques to gain elevated privileges.
+privilege escalation
+
+
+An attack that misleads systems about the actual MAC address of a system.
+ARP poisoning
+
+
+An attack that increases the amount of bandwidth sent to a victim.
+amplification attack
+
+
+An attack that modifies or corrupts DNS results. DNSSEC helps prevent DNS poisoning.
+DNS poisoning
+
+
+An attack that changes the registration of a domain name without permission from the owner.
+Domain hijacking
+
+
+An attack that infects vulnerable web browsers. It can allow the attacker to capture browser session data, including keystrokes.
+Man-in-the-browser
+
+
+A vulnerability or bug that is unknown to trusted sources but can be exploited by attackers. Zero-day attacks take advantage of zero-day vulnerabilities.
+Zero-day
+
+
+An attack where the data is captured and replayed. Attackers typically modify data before replaying it.
+replay attack
+
+
+A password attack that captures and uses the hash of a password. It attempts to log on as the user with the hash and is commonly associated with the Microsoft NTLM protocol.
+pass-the-hash
+
+
+An attack that tricks users into clicking something other than what they think they're clicking.
+clickjacking
+
+
+An attack that attempts to impersonate a user by capturing and using a session ID. Session IDs are stored in cookies.
+Session hijacking
+
+
+The purchase of a domain name that is close to a legitimate domain name. Attackers often try to trick users who inadvertently use the wrong domain name. Also called typo squatting.
+URL hijacking
+
+
+A driver manipulation method. It uses additional code to modify the behavior of a driver.
+shimming
+
+
+A driver manipulation method. Developers rewrite the code without changing the driver's behavior.
+refactoring
+
+
+An attack that changes the source MAC address
+MAC spoofing
+
+
+An attack that changes the source IP address
+IP spoofing
+
+
+An attack where the data is captured and replayed. Attackers typically modify data before replaying it.
+Replay attack
+
+
+A wireless attack that attempts to discover the IV. Legacy wireless security protocols are susceptible to IV attacks.
+IV attack
+
+
+A type of rogue AP. An evil twin has the same SSID as a legitimate AP.
+Evil twin
+
+
+An unauthorized AP. It can be placed by an attacker or an employee who hasn't obtained permission to do so.
+Rogue AP
+
+
+A DoS attack against wireless network. It transmits noise on the same frequency used by a wireless network.
+jamming
+
+
+A method that allows users to easily configure a wireless network, often by using only a PIN. WPS brute force attacks can discover the PIN.
+WPS (WiFi Protected Setup)
+
+
+An attack against bluetooth devices. It is the practice of sending unsolicited messages to nearby Bluetooth devices.
+Bluejacking
+
+
+An attack against Bluetooth devices. Attackers gain unauthorized access to Bluetooth devices and can access all the data on the device.
+Bluesnarfing
+
+
+Attacks against radio frequency identification (RFID) systems. Some common RFID attacks are eavesdropping, replay, and DoS
+RFID attacks
+
+
+An attack against mobile devices that use NFC. NFC is a group of standards that allow mobile devices to communicate with nearby mobile devices.
+NFC attack
+
+
+- a phone (PBX) hacker
+Phreaker
+
+
+- Impersonating another user, usually with the intention of gaining unauthorized access to a system
+Masquerading
+
+
+- is the act of willfully modifying information, programs, or documentation in an effort to commit fraud or disrupt production
+- alteration of existing data. Many times, this modification happens before the data is entered into an application or as soon as it completes processing and is outputted from an application
+- is common and one of the easiest to prevent by using access and accounting controls, supervision, auditing, separation of duties, and authorization limits
+Data diddling
+
+
+...
+Phone fraud
+
+
+- An intruder injects herself into an ongoing dialog between two computers so she can intercept and read messages being passed back and forth
+Man-in-the-middle attack
+
+
+- is an attack at the network layer
+- spoofing can be considered a masquerading attack change change the IP address within a packet to show a different address (manually or use a tool)
+- popular attacking trick in which the attacker modifies a packet header to have the source address of a host inside the network she wants to attack
+IP Spoofing
+
+
+- sniffing network traffic with the hope of capturing passwords being sent between computers
+Password sniffing
+
+
+- rummaging through a company or individual's garbage for discarded documents, information, and other precious items that could then be used in an attack against that company or person
+- dumpster diving is unethical, but it's not illegal
+Dumpster diving
+
+
+- is one in which the attacker commits several small crimes with the hope that the overall larger crime will go unnoticed.
+- usually take place in the accounting departments of companies
+Salami attack
+
+
+- when a user has more computer rights, permissions, and privileges than what is required for the tasks she needs to fulfill
+Excessive privileges
+
+
+- attackers alter a system's ARP table so it contains incorrect information
+ARP poisoning
+
+
+- when one or more people either walk or drive around with a wireless device equipped with the necessary equipment and software with the intent of identifying APs and breaking into them
+- Kismet and NetStumbler are programs that sniff (monitor) for APs
+- Airsnarf, AirSnort, and WEP-Crack are utilities that can be used to break and capture the WEP encryption keys
+War driving
+
+
+- an attacker capturing the traffic from a legitimate session and replaying it to authenticate his session
+- Timestamps and sequence numbers are two countermeasures to replay attacks
+Replay attack
+
+
+- An attacker uses a table that contains all possible passwords already in a hash format
+Rainbow table
+
+
+- is a type of social engineering with the goal of obtaining personal information, credentials, credit card number, or financial data
+- This is the act of sending spoofed messages that pretend to originate from a source the user trusts and has a business relation with, such as a bank
+Phishing
+
+
+- Performed with tools that cycle through many possible character, number, and symbol combinations to uncover a password
+Brute force attack
+
+
+- Files of thousands of words are compared to the user's password until a match is found
+Dictionary attack
+
+
+- Attackers have used devices to capture the emitted electrical waves and port them to their own computer systems so they can access information not intended for them
+Emanations Capturing
+
+
+- It can usually be done undetected and is referred to as a passive attack
+- Tools used to intercept communications include cellular scanners, radio receivers, microphone receivers, tape recorders, network sniffers, and telephone-tapping devices
+Wiretapping
+
+
+- An attacker sends multiple service requests to the victim's computer until they eventually overwhelm the system, causing it to freeze, reboot, and ultimately not be able to carry out regular tasks.
+- Ping of death, Mail bombing
+Denial-of-service (DoS) attack
+
+
+- type of DoS attack
+- overwhelm mail servers and clients with unrequested e-mails.
+- using e-mail filtering and properly configuring e-mail relay functionality on mail servers can be used to protect against this
+Mail bombing
+
+
+- This is a brute force attack in which an attacker has a program that systematically dials a large bank of phone numbers with the goal of finding ones that belong to modems instead of telephones
+- These modems can provide easy access into an environment
+- The countermeasures are to not publicize these telephone numbers and to implement tight access control for modems and modem pools
+Wardialing
+
+
+- type of DoS attack
+- oversized ICMP packets are sent to the victim. Systems that are vulnerable to this type of attack do not know how to handle ICMP packets over a specific size and may freeze or reboot
+- Countermeasures are to patch the systems and implement ingress filtering to detect these types of packets
+Ping of death
+
+
+- A fake login screen is created and installed on the victim's system to capture the users credentials
+- A host-based IDS can be used to detect this type of activity
+Fake login screens
+
+
+- This attack sends malformed fragmented packets to a victim. The victim's system usually cannot reassemble the packets correctly and freezes as a result
+- Countermeasures to this attack are to patch the system and use ingress filtering to detect these packet types
+Teardrop
+
+
+- This is a method of uncovering information by watching traffic patterns on a network.
+- Traffic padding can be used to counter this kind of attack, in which decoy traffic is sent out over the network to disguise patterns and make it more difficult to uncover them
+Traffic analysis
+
+
+- Slamming is when a user's service provider has been changed without that user's consent
+Slamming
+
+
+- Cramming is adding on charges that are bogus in nature that the user did not request
+Cramming
+
+
+- is a program that is installed by an attacker to enable her to come back into the computer at a later date without having to supply login credentials or go through any type of authorization process
+Backdoor
+
+
+- Attacker captures ciphertext only
+- Try to discover key used to encrypt
+- Most common attack
+Cipher-Only Attacks
+
+
+- Attacker has the plaintext and corresponding ciphertext of one or more messages
+- goal is to discover the key used to encrypt so other messages can be deciphered and read
+- Know what the beginning and end of msg would be
+- USA used on Germans in WII
+Known-Plaintext Attacks
+
+
+- attacker has the plaintext and ciphertext
+- chooses plaintext that gets encrypted
+- Attacker sends a message they think the victim will encrypt and send out to others
+Chosen-Plaintext Attacks
+
+
+- attacker can choose the ciphertext to be decrypted
+- has access to the resulting decrypted plaintext
+- harder attack to carry out
+- attacker may need to have control of the system that contains the cryptosystem
+Chosen-Ciphertext Attacks
+
+
+- the attacker can carry out one of these attacks and, depending upon what
+she gleaned from that first attack, modify her next attack
+- is the process of reverse-engineering or cryptanalysis attacks: using what you learned to improve your next attack
+Adaptive x attack
+
+
+- attack looks at ciphertext pairs generated by encryption of plaintext pairs with specific differences and analyzes the effect and result of those differences
+- DES and othe block algorithms
+- type of chosen-plaintext attack
+Differential Cryptanalysis
+
+
+- The attacker carries out a known-plaintext attack on several different messages encrypted with the same key
+- Block algorithm
+Linear Cryptanalysis
+
+
+- gathering "outside" information with the goal of uncovering the encryption key is just another way of attacking a cryptosystem
+Side-Channel Attacks
+
+
+- analyze the vulnerabilities in the mathematics used within the algorithm and exploit the intrinsic algebraic structure
+Algebraic Attacks
+
+
+- identify algorithm structural weaknesses or flaws
+- Examples = Double DES attack and RSA factoring attack
+Analytic Attacks
+
+
+- identify statistical weaknesses in algorithm design for exploitation
+- and identify patterns etc to reduce the search time for keys
+Statistical Attacks
+
+
+- requires three players: the attacker, the victim, and the amplifying network
+- The attacker spoofs (changes the source IP address in a packet header) to make an ICMP ECHO REQUEST packet seem as though it originated at the victim's system
+- ICMP ECHO REQUEST message is broadcast to the amplifying network, which replies in full force
+- brings down the victims system and network
+- countermeasures:
+- Disable direct broadcast functionality at border routers
+- Configure perimeter routers to reject as incoming messages any packets that contain internal source IP addresses. These packets are spoofed.
+- Allow only the necessary ICMP traffic into and out of an environment
+- Employ a network-based IDS to watch for suspicious activity
+- Some systems are more sensitive to certain types of DoS, and patches have already been released. The appropriate patches should be applied.
+Smurf Attack
+
+
+- similar to smurf, but instead of using ICMP, it employs the User Datagram Protocol (UDP) as its weapon of choice
+Fraggle
+
+
+- continually sending the victim SYN messages with spoofed packets
+- victims system fully commits all its resources to set up a connection and cannot process legit requests
+SYN Flood
+
+
+- is a logical extension of the DoS attack that gets more computers involved in the act
+- uses hundreds or thousands of computers to request services from a server or server farm until the system or web site is no longer functional
+- The attacker creates master controllers that can in turn control slaves, or zombie machines
+Distributed Denial-of-Service (DDoS) attack
+
+
+The ability for an attacker to execute commands or run programs on a target system and can be remotely.
+Arbitrary Code Execution
+
+
+Uses one or more techniques like complex code or encryption, to make it difficult to reverse engineer.
+Armored Virus
+
+
+An attack that misleads computers or switches about the actual MAC address of a system.
+ARP Poisoning
+
+
+Provides another way of accessing a system, bypassing normal authentication methods.
+Backdoor
+
+
+Determines what software is running on each open port where the attack connects to each port and collects the response from the server.
+Banner Grabbing
+
+
+Named after the birthday paradox in mathematical probability theory. The birthday paradox states that for any random group of 23 people, there is a 50 percent chance that 2 of them have the same birthday.
+Birthday Attack
+
+
+The practice of sending unsolicited messages to other Bluetooth devices.
+Bluejacking
+
+
+Any unauthorized access to or theft of information from a Bluetooth connection.
+Bluesnarfing
+
+
+Password attack that involves using password-cracking software to mathematically calculate every possible password.
+Brute Force Attack
+
+
+Attack sends more data or unexpected data to an application with the goal of accessing system memory.
+Buffer Overflow
+
+
+The practice of checking data for validity before using it as a client/system to protect against many attacks, such as buffer overflow, SQL injection, command injection, and cross-site scripting attacks.
+Client-Side Inspection
+
+
+A line-by-line review of code by peer programmers and can help detect vulnerabilities, such as race conditions or susceptibility to buffer overflow attacks.
+Code Review
+
+
+An attack in which the goal is execution of arbitrary commands on the host operating system via a vulnerable application.
+Command Injection
+
+
+A cookie is a text file stored on a user's computer and used for multiple purposes, including tracking a user's activity. Attachments are typically associated with emails.
+Cookie and Attachment
+
+
+Attackers embed malicious HTML or JavaScript code into an email or web site error message. If responded to, it executes the code where the attacker can then access some information.
+Cross-Site Scripting
+
+
+Primarily at the web application with input validation techniques to block the use of HTML tags and JavaScript tags.
+Cross-Site Scripting Prevention
+
+
+A vulnerability assessment technique to look at the system attack surface which refers to the attack vectors available on a system, such as open ports.
+Determine Attack Surface
+
+
+Password attacks which attempts to use every word in the dictionary to see if it works.
+Dictionary Attack
+
+
+A specific type of command injection attack that attempts to access a file by including the full directory path, or traversing the directory structure.
+Directory Traversal
+
+
+Attempts to modify or corrupt DNS results.
+DNS Poisoning
+
+
+Created by Adobe Flash Player and is different from a traditional text cookie. Also called Locally Shared Objects (LSO's).
+Flash Cookie
+
+
+The insertion of malicious data, which has not been validated, into a HTTP response header.
+Header Manipulation
+
+
+A message, often circulated through email, that tells of impending doom from a virus or other security threat that simply doesn't exist
+Hoax
+
+
+In relation to password attacks, uses a combination of two or more types of methods to crack a password.
+Hybrid
+
+
+Pretending you're someone/something else to gain info.
+Impersonation
+
+
+Attempts to create a numeric value that is too big for an application to handle causing an error.
+Integer Overflow
+
+
+Type of scan which attempts to exploit vulnerabilities; penetration testing.
+Intrusive
+
+
+Type of wireless network attack that targets the initialization vector of WEP due to the weakness from it's small bit size and repetition.
+IV Attack
+
+
+An attack which transmits noise or another radio signal on the same frequency used by a wireless network that can reduce performance or even availability.
+Jamming
+
+
+Attacks that attempt to access or modify data hosted on directory service servers by taking advantage of poor application input validation.
+LDAP Injection
+
+
+A string of code embedded into an application or script which executes in response to an event, such as when a specific application is executed or a specific time arrives.
+Logic Bomb
+
+
+A malicious insider is anyone who has legitimate access to an organization's internal resources, but exploits this access for personal gain or damage against the organization.
+Malicious Insider Threat
+
+
+A form of active interception or active eavesdropping where the attacker inserts themselves in the middle of two systems that are communicating.
+Man-in-the-Middle
+
+
+A group of standards used on mobile devices that allow them to communicate with other mobile devices when they are close to them
+Near Field Communication
+
+
+Actively assesses deployed security controls within a system or network.
+Penetration Testing
+
+
+Redirects a web site's traffic to another web site and can do so by modifying the hosts file on the user's system; similar to DNS poisoning.
+Pharming Attack
+
+
+When a user or process accesses elevated rights and permissions. Having administrators use two accounts and with the administrative account being use sparingly reduces the potential for privilege escalation.
+Privilege Escalation
+
+
+Has the ability to morph or mutate when it replicates itself, or when it executes making it difficult for antivirus software to track/find.
+Polymorphic Malware
+
+
+Method where huge databases of precomputed hashes are used to speed up the process of performing a password attack.
+Rainbow Tables
+
+
+Captures data in a session with the intent of later impersonating one of the parties in the session.
+Replay Attack
+
+
+An unauthorized device that the network administrator is unaware of that could be setting for an attack if accessed.
+Rogue Access Point
+
+
+A group of programs (or, in rare instances, a single program) that hides the fact that the system has been infected or compromised by malicious code and has system-level access.
+Rootkit
+
+
+An attack where the attacker learns the user's current established communication ID and uses it to impersonate the user, usually removing that user in the process.
+Session Hijacking
+
+
+When an attacker enters additional data into the web page form to generate different SQL statements in efforts of retrieving details and information on the database.
+SQL Injection
+
+
+A domain name that is close to a legitimate domain name in efforts to lead users to the non-legitimate website with malicious intent.
+Typo Squatting/URL Hijacking
+
+
+An attack where someone determines a frequently visited website then compromises the site by planting viruses or malicious code on them, attempting to infect a user's computer.
+Watering Hole Attack
+
+
+A type of port scan used to identify underlying details of an operating system in addition to what ports are open.
+Xmas Attack
+
+
+When an attacker inserts additional data in XML format that could expose data to retrieval or modification from databases.
+XML Injection
+
+
+Attackers exploiting unknown or undocumented vulnerabilities before they are patched.
+Zero-Day
